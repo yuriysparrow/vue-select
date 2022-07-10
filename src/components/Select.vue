@@ -15,6 +15,7 @@
       aria-label="Search for option"
       @mousedown="toggleDropdown($event)"
     >
+      <slot name="label" v-bind="scope.textLabel"></slot>
       <div ref="selectedOptions" class="vs__selected-options">
         <slot
           v-for="option in selectedValue"
