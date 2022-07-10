@@ -22,9 +22,9 @@ yarn-error.log*
 
 # Project specific
 coverage
-dist
+# dist
 test/unit/coverage
-package-lock.json
-dev/dist
+# package-lock.json
+# dev/dist
 docs/.vuepress/dist
 .netlify
